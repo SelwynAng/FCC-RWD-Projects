@@ -1,0 +1,72 @@
+div#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div#title div.name {
+    display: block;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(48, 126, 79);
+}
+div#title div.sub-name {
+    display: block;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: oblique;
+    color: white;
+    background-color: rgb(48, 126, 79);
+}
+div#img-div {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 900px){
+    div#img-div img {
+        max-width: 100%; /*I have no idea why this line is needed for User Story #8 to work*/
+        display: block;
+        width: 300px;
+        margin: auto;
+        border: 2px solid black;
+    }
+} 
+@media screen and (max-width: 900px){
+    div#img-div img {
+        display: block;
+        width: 250px;
+        margin: auto;
+        border: 2px solid black;
+    }
+} 
+div#img-div div#img-caption {
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+}
+div#tribute-info {
+    display: block;
+    width: 600px;
+    padding: 7px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    font-family: monospace;
+    color:rgb(48, 126, 79);
+}
+div#tribute-link-parent {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: monospace;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
